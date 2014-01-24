@@ -2,12 +2,12 @@
 $(call inherit-product, device/motorola/maserati/full_maserati.mk)
 
 # Inherit some common CM stuff.
-$(call inherit-product, vendor/cm/config/common_full_phone.mk)
+$(call inherit-product, vendor/cyandream/config/common_full_phone.mk)
 
 #
 # Setup device specific product configuration.
 #
-PRODUCT_NAME := cm_maserati
+PRODUCT_NAME := cd_maserati
 PRODUCT_BRAND := verizon
 PRODUCT_DEVICE := maserati
 PRODUCT_DEVICE_PREFIX := cdma
